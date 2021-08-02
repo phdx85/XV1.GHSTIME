@@ -33,13 +33,29 @@ if (currentDayOfWeek == 0 || currentDayOfWeek == 6){
     let sl = sched.length;
   }
   else {
-    schedTitle = "Regular Bell Schedule";
+    schedTitle = "Freshman/Sophomore Schedule";
     sched = [
-      { t: 0, msg: "8:00<br />	First Bell" },
-      { t: 800, msg: "Breakfast     <br />   8:00 -  8:15" },
-      { t: 815, msg: "Summer School Class <br />	 8:15 -  11:45" },
-      { t: 1145, msg: "Lunch    <br />	 11:45 -  12:00" },
-      { t: 1200, msg: "12pm - School is out!" },
+      { t: 0, msg: "8:25<br />	Warning Bell" },
+      { t: 825, msg: "Transition" },
+      { t: 830, msg: "1st Period <br />   8:30 - 9:15" },
+      { t: 915, msg: "Transition" },
+      { t: 920, msg: "2nd Period <br />   9:20 - 10:05" },
+      { t: 1005, msg: "Transition" },
+      { t: 1010, msg: "3rd Period <br />  10:10 - 10:55" },
+      { t: 1055, msg: "Transition" },
+      { t: 1100, msg: "4th Period <br />  11:00 - 11:45" },
+      { t: 1145, msg: "Advisory <br />    11:45 - 12:00" },
+      { t: 1200, msg: "KnightVision<br /> 12:00 - 12:05" },
+      { t: 1205, msg: "Freshman/Sophomore Lunch <br /> 12:05 - 12:45" },
+      { t: 1245, msg: "Transition" },
+      { t: 1250, msg: "6th Period <br />  12:50 - 1:35" },
+      { t: 1335, msg: "Transition" },
+      { t: 1340, msg: "7th Period <br />  1:40 - 2:25" },
+      { t: 1425, msg: "Transition" },
+      { t: 1430, msg: "8th Period <br />  2:30 - 3:15" },
+      { t: 1515, msg: "Transition" },
+      { t: 1520, msg: "9th Period <br />  3:20 - 4:05" },
+      { t: 1605, msg: "4:05pm - Dismissed" },
       { t: 2400, msg: "clock will reset"},
     ];
     let sl = sched.length;
